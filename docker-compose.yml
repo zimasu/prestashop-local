@@ -20,9 +20,10 @@ services:
       DB_USER: root
       DB_PASSWD: admin
       PS_INSTALL_AUTO: 1
-      PS_DOMAIN: localhost:8080
+      PS_DOMAIN: bath-excluding-yearly.ngrok-free.dev
       ADMIN_MAIL: admin@demo.com
       ADMIN_PASSWD: admin1234!
+      PS_ADMIN_DIRECTORY: admin
     volumes:
       - prestashop_data:/var/www/html
 
